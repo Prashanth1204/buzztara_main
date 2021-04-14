@@ -1,12 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./Home";
+import Safe from "./Safe";
+import Glass from "./Glass";
+import Sense from "./Sense";
+import Users from "./Users";
+import {Route,Switch} from "react-router-dom";
+
 
 function App() {
   return (
-    <div className="App">
-      <h2>App new one</h2>
-        
-    </div>
+    <Switch>
+      <Route exact path="/buzztara_main" component={Home} />
+      <Route exact path="/buzztara_main/safe" component={Safe} />
+      <Route exact path="/buzztara_main/glass" component={Glass} />
+      <Route exact path="/buzztara_main/sense" component={Sense} />
+      <Route exact path="/buzztara_main/users" component={Users} />
+    </Switch>
   );
 }
 

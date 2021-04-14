@@ -11,3 +11,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.NT{
+  border: 1px solid black;
+  padding: 6px;
+  border-radius: 50%;
+}
+.up{
+  border: 1px solid rgb(175, 169, 169);
+  padding: 0 10px 0 10px;
+  border-radius: 4px 4px 0 0;
+}
+.navbarunder,.navbarundersafe,.navbarunderglass,.navbarundersense,.navbarunderusers{
+  position: relative;
+}
+.navbarunder::after{
+  position: absolute; 
+  left: 20px; 
+  bottom: 0; 
+  top : 40px;
+  width: 60%; 
+  height: 0.5px; 
+  border-bottom: 2px solid rgb(223, 63, 22); 
+  content: ""
+}
+.navbarundersafe::after{
+  position: absolute; 
+  left: 17px; 
+  bottom: 0; 
+  top : 40px;
+  width: 43%; 
+  height: 0.5px; 
+  border-bottom: 2px solid rgb(223, 63, 22); 
+  content: ""
+}
+.navbarunderglass::after{
+  position: absolute; 
+  left: 17px; 
+  bottom: 0; 
+  top : 40px;
+  width: 52%; 
+  height: 0.5px; 
+  border-bottom: 2px solid rgb(223, 63, 22); 
+  content: ""
+}
+.navbarundersense::after{
+  position: absolute; 
+  left: 17px; 
+  bottom: 0; 
+  top : 40px;
+  width: 54%; 
+  height: 0.5px; 
+  border-bottom: 2px solid rgb(223, 63, 22); 
+  content: ""
+}
+.navbarunderusers::after{
+  position: absolute; 
+  left: 16px; 
+  bottom: 0; 
+  top : 40px;
+  width: 54%; 
+  height: 0.5px; 
+  border-bottom: 2px solid rgb(223, 63, 22); 
+  content: ""
+}
+
